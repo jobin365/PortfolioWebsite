@@ -1,20 +1,28 @@
-html,body{
-    height: 100%;
-    margin: 0px;
+html,
+body {
+  height: 100%;
+  margin: 0px;
 }
 
-.App{
-    display: flex;
-    align-items:center;
-    height: 100%;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
+#root {
+  height: 100%;
 }
 
-.Information{
-    width: 500px;
+.App {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  font-family: 'Roboto Mono', monospace;
 }
 
-.Navigation{
-    width: 200px;
+.Information {
+  width: 600px;
+  max-height: 600px;
+  overflow: auto;
+}
+
+.Navigation {
+  width: 200px;
 }
