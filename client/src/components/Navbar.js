@@ -6,11 +6,12 @@ import WorkIcon from "@mui/icons-material/Work";
 import CodeIcon from "@mui/icons-material/Code";
 import SchoolIcon from "@mui/icons-material/School";
 import { Link } from "react-router-dom";
+import BoltIcon from '@mui/icons-material/Bolt';
 
 export default function Navbar() {
   const buttonStyle = {
     margin: "10px",
-    width: "180px",
+    width: "180px"
   };
 
   return (
@@ -19,6 +20,12 @@ export default function Navbar() {
         <Fab style={buttonStyle} color="primary" variant="extended">
           <AccountCircleIcon sx={{ mr: 1 }} />
           About
+        </Fab>
+      </Link>
+      <Link className="link" to="/skills">
+        <Fab style={buttonStyle} color="primary" variant="extended">
+          <BoltIcon sx={{ mr: 1 }} />
+          Skills
         </Fab>
       </Link>
       <Link className="link" to="/experience">

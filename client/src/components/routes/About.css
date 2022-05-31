@@ -1,11 +1,26 @@
 img{
-    max-height: 150px;
+    max-height: 120px;
     float: left;
     margin-right: 30px;
 }
-.left-container{
+.photoNHeadingNLinks{
     display: flex;
     align-items: center;
-    flex-direction: row;
-    margin-bottom: 30px;
+    flex-wrap: wrap;
+    width:400px;
+    margin-bottom: 50px;
+}
+a{
+    text-decoration: none;
+    margin-right: 15px;
+    color: black;
+}
+.blue{
+    color:blue;
+}
+.green{
+    color:green;
+}
+.red{
+    color:red;
 }

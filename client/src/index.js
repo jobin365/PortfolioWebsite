@@ -8,6 +8,7 @@ import About from "./components/routes/About";
 import Experience from "./components/routes/Experience";
 import Projects from "./components/routes/Projects";
 import Education from "./components/routes/Education";
+import Skills from "./components/routes/Skills";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -19,6 +20,7 @@ root.render(
           <Route path="experience" element={<Experience />} />
           <Route path="projects" element={<Projects />}/>
           <Route path="education" element={<Education />}/>
+          <Route path="skills" element={<Skills/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
