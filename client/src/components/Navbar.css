@@ -1,7 +1,13 @@
 .navbar{
-    width: 200px;
     float: right;
+    display: flex;
+    flex-direction: column;
 }
 .link{
     text-decoration: none;
+}
+@media only screen and (max-width: 900px) {
+    .navbar{
+        flex-direction: row;
+    }
 }
