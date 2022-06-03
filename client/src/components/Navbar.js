@@ -38,12 +38,14 @@ export default function Navbar() {
       {data.map((item) => {
         const [route, icon, name] = item;
         return (
-          <Link key={uuidv4()} className="link" to={route}>
+          <div key={uuidv4()} className="navButton">
+          <Link className="link" to={route}>
             <Fab style={(screenWidth>=900)?buttonStyleDesktop:buttonStyleMobile} color="primary" variant={(screenWidth>=900)?"extended":"circular"}>
               {icon}
               {(screenWidth>=900)&&name}
             </Fab>
           </Link>
+          </div>
         );
       })}
     </div>
