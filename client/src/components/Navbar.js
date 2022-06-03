@@ -19,19 +19,16 @@ export default function Navbar() {
   const buttonStyleMobile={
     margin:"10px"
   }
-  const iconStyleDesktop = {
-    mr: 1,
+  const iconStyle = {
+    mr: (screenWidth>=900)?1:0,
   };
-  const iconStyleMobile={
-    mr:0
-  }
   
   const data = [
-    ["/about", <AccountCircleIcon sx={(screenWidth>=900)?iconStyleDesktop:iconStyleMobile} />, "About"],
-    ["/skills", <BoltIcon  sx={(screenWidth>=900)?iconStyleDesktop:iconStyleMobile} />, "Skills"],
-    ["/experience", <WorkIcon sx={(screenWidth>=900)?iconStyleDesktop:iconStyleMobile} />, "Experience"],
-    ["/projects", <CodeIcon sx={(screenWidth>=900)?iconStyleDesktop:iconStyleMobile} />, "Projects"],
-    ["/education", <SchoolIcon sx={(screenWidth>=900)?iconStyleDesktop:iconStyleMobile} />, "Education"],
+    ["/about", <AccountCircleIcon sx={iconStyle} />, "About"],
+    ["/skills", <BoltIcon  sx={iconStyle} />, "Skills"],
+    ["/experience", <WorkIcon sx={iconStyle} />, "Experience"],
+    ["/projects", <CodeIcon sx={iconStyle} />, "Projects"],
+    ["/education", <SchoolIcon sx={iconStyle} />, "Education"],
   ];
   useEffect(()=>{
     setScreenWidth(window.screen.width);
