@@ -10,6 +10,7 @@ export default function About() {
         <img alt="profile pic" src={profilePic}></img>
         <div className="headingNLinks">
           <h1>Jobin John K</h1>
+          <h3>Software Developer</h3>
           <div className="links">
             <IconLink
               URL="https://github.com/jobin365"
