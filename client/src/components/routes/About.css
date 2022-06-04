@@ -19,6 +19,9 @@ img{
 .red{
     color:#d63031;
 }
+.black{
+    color:#222222
+}
 @media only screen and (max-width: 900px) {
     .photoNHeadingNLinks{
         flex-direction: column;

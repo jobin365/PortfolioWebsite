@@ -2,6 +2,8 @@ html,
 body {
   height: 100%;
   margin: 0px;
+  background-color: #F2EBE9;
+  color: #7C3E66;
 }
 
 #root {

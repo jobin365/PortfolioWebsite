@@ -8,6 +8,7 @@ import SchoolIcon from "@mui/icons-material/School";
 import { Link } from "react-router-dom";
 import BoltIcon from "@mui/icons-material/Bolt";
 import { v4 as uuidv4 } from 'uuid';
+import { createTheme, ThemeProvider } from '@mui/material/styles';
 
 export default function Navbar() {
 
@@ -33,6 +34,15 @@ export default function Navbar() {
   useEffect(()=>{
     setScreenWidth(window.screen.width);
   },[])
+
+  const theme = createTheme({
+    palette: {
+      primary: {
+        main:"#243A73"
+      }
+    }
+  })
+
   return (
     <div className="navbar">
       {data.map((item) => {
@@ -40,10 +50,12 @@ export default function Navbar() {
         return (
           <div key={uuidv4()} className="navButton">
           <Link className="link" to={route}>
-            <Fab style={(screenWidth>=900)?buttonStyleDesktop:buttonStyleMobile} color="primary" variant={(screenWidth>=900)?"extended":"circular"}>
+          <ThemeProvider theme={theme}>
+            <Fab color="primary" style={(screenWidth>=900)?buttonStyleDesktop:buttonStyleMobile} variant={(screenWidth>=900)?"extended":"circular"}>
               {icon}
               {(screenWidth>=900)&&name}
             </Fab>
+            </ThemeProvider>
           </Link>
           </div>
         );

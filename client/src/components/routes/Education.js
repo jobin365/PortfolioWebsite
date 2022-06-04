@@ -1,6 +1,6 @@
 import React from "react";
-import LPU from "../images/lpu.png";
-import YIMS from "../images/yims.png";
+import LPU from "../images/lpu-min.png";
+import YIMS from "../images/yims-min.png";
 import LogoNName from "../LogoNName";
 export default function About() {
   return (

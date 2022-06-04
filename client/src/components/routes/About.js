@@ -1,5 +1,5 @@
 import React from "react";
-import profilePic from "../images/profilePic.png";
+import profilePic from "../images/profilePic-min.png";
 import IconLink from "../IconLink";
 import "./About.css";
 
@@ -13,7 +13,7 @@ export default function About() {
           <div className="links">
             <IconLink
               URL="https://github.com/jobin365"
-              icon="fab fa-github fa-2x"
+              icon="fab fa-github fa-2x black"
             />
             <IconLink
               URL="https://www.linkedin.com/in/jobin-john-k-b8141b1ba/"

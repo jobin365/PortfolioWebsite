@@ -3,8 +3,8 @@ import IconLink from "../IconLink";
 import "./Projects.css";
 import { v4 as uuidv4 } from 'uuid';
 export default function About() {
-  const gitHubIcon = "fab fa-github fa-lg";
-  const linkIcon = "fas fa-external-link-alt";
+  const gitHubIcon = "fab fa-github fa-lg black";
+  const linkIcon = "fas fa-external-link-alt blue";
   const projects = [
     [
       "GetItDone ",

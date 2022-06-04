@@ -1,9 +1,9 @@
 import React from "react";
 import LogoNName from "../LogoNName";
-import ReactLogo from "../images/react.png";
-import MongoDBLogo from "../images/mongo.png";
-import ExpressLogo from "../images/express.png";
-import GitLogo from "../images/git.png";
+import ReactLogo from "../images/react-min.png";
+import MongoDBLogo from "../images/mongo-min.png";
+import ExpressLogo from "../images/express-min.png";
+import GitLogo from "../images/git-min.png";
 import { v4 as uuidv4 } from 'uuid';
 import "./Skills.css"
 export default function About() {
