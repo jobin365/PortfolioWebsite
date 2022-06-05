@@ -5,7 +5,7 @@ export default function About(){
     return(<>
         <h2>Intern</h2>
         <LogoNName name="Eclerx" logoURL={eClerx}/>
-        <p>June 2nd 2022 - Present</p>
+        <p>June 2022 - Present</p>
         <ul style={{textAlign:"left"}}>
             <li>Currently getting trained on Salesforce Marketing Cloud</li>
         </ul>
