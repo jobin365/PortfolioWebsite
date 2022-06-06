@@ -11,7 +11,8 @@ export default function About() {
     ["React", ReactLogo ],
     ["MongoDB",MongoDBLogo ],
     ["Express",ExpressLogo],
-    ["Git",GitLogo]
+    ["Git",GitLogo],
+    ["HTML",GitLogo]
   ];
   return (
     <div className="skills">
