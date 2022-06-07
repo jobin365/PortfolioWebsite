@@ -10,7 +10,7 @@ export default function About() {
         <img alt="profile pic" src={profilePic}></img>
         <div className="headingNLinks">
           <h1>Jobin John K</h1>
-          <h3>Software Developer</h3>
+          <h3>Digital Marketing Intern</h3>
           <div className="links">
             <IconLink
               URL="https://github.com/jobin365"
@@ -34,12 +34,10 @@ export default function About() {
       </div>
       <div className="about">
         <p>
-          Candidate with beginner to intermediate experience in developing and
-          deploying full stack web applications using version control. Main
-          technical skills include React, MongoDB and Express. Have created
-          several projects and published them on GitHub page. Graduated with a
-          degree in computer science and currently pursuing masters from Lovely
-          Professional University.
+        Currently doing internship at eClerx and is getting trained on Salesforce Marketing Cloud. 
+        Have self made experience in developing and deploying full stack web applications using version control. 
+        Checkout my GitHub page and personal website. 
+        Graduated with a degree in computer science and pursuing masters from Lovely Professional University.
         </p>
       </div>
     </>

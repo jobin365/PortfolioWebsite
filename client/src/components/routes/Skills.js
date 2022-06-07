@@ -4,6 +4,7 @@ import ReactLogo from "../images/react-min.png";
 import MongoDBLogo from "../images/mongo-min.png";
 import ExpressLogo from "../images/express-min.png";
 import GitLogo from "../images/git-min.png";
+import JSLogo from "../images/js.png";
 import { v4 as uuidv4 } from 'uuid';
 import "./Skills.css"
 export default function About() {
@@ -12,7 +13,7 @@ export default function About() {
     ["MongoDB",MongoDBLogo ],
     ["Express",ExpressLogo],
     ["Git",GitLogo],
-    ["HTML",GitLogo]
+    ["JavaScript",JSLogo]
   ];
   return (
     <div className="skills">
