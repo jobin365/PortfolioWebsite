@@ -34,10 +34,9 @@ export default function About() {
       </div>
       <div className="about">
         <p>
-        Currently doing internship at eClerx and is getting trained on Salesforce Marketing Cloud. 
-        Have self made experience in developing and deploying full stack web applications using version control. 
-        Checkout my GitHub page and personal website. 
-        Graduated with a degree in computer science and pursuing masters from Lovely Professional University.
+        Currently doing internship at eClerx and is getting trained on Salesforce Marketing Cloud.
+        Has self made experience in developing and deploying full stack web applications using version control. Checkout the GitHub page.
+        Graduated with a degree in computer science and pursuing masters in computer application.
         </p>
       </div>
     </>
