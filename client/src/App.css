@@ -21,7 +21,6 @@ body {
 
 .Information {
   width: 600px;
-  padding-right: 50px;
   max-height: 600px;
   overflow: auto;
 }
@@ -35,7 +34,6 @@ a{
 }
 @media only screen and (max-width: 900px) {
   .Information{
-    padding-right: 0px;
     text-align: center;
     display: flex;
     flex-direction: column;

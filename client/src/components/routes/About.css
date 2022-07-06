@@ -7,7 +7,6 @@ img{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
-    width:600px;
     margin-bottom: 50px;
 }
 .blue{
@@ -40,11 +39,17 @@ img{
         margin-right: 0px;
     }
 }
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 400px) {
     .about{
         width: 350px;
     }
     .photoNHeadingNLinks{
         width: 350px;
+    }
+}
+
+@media screen and (min-width:901px){
+    .myName{
+        margin-top: 0px;
     }
 }

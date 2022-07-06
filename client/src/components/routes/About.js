@@ -9,7 +9,7 @@ export default function About() {
       <div className="photoNHeadingNLinks">
         <img alt="profile pic" src={profilePic}></img>
         <div className="headingNLinks">
-          <h1>Jobin John K</h1>
+          <h1 className="myName">Jobin John K</h1>
           <h3>Digital Marketing Intern</h3>
           <div className="links">
             <IconLink
@@ -35,7 +35,7 @@ export default function About() {
       <div className="about">
         <p>
         Currently doing internship at eClerx and is getting trained on Salesforce Marketing Cloud.
-        Has self made experience in developing and deploying full stack web applications using version control. Checkout the GitHub page.
+        Has self made experience in full stack development. Checkout the GitHub page and personal website.
         Graduated with a degree in computer science and pursuing masters in computer application.
         </p>
       </div>
