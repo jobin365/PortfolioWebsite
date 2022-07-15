@@ -5,12 +5,17 @@ import JSLogo from "../images/js.png";
 import mernLogo from "../images/mern.png";
 import htmlNcssLogo from "../images/html&css.png"
 import sfLogo from "../images/salesforce.png";
+import reactLogo from "../images/react-min.png";
+import mongoLogo from "../images/mongo-min.png";
+import expressLogo from "../images/express-min.png";
 import { v4 as uuidv4 } from 'uuid';
 import "./Skills.css"
 export default function About() {
   const skills = [
     ["Salesforce Marketing Cloud",sfLogo],
-    ["MERN Stack Development",mernLogo],
+    ["React",reactLogo],
+    ["MongoDB",mongoLogo],
+    ["Express",expressLogo],
     ["Git",GitLogo],
     ["JavaScript",JSLogo],
     ["HTML & CSS",htmlNcssLogo]

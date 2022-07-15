@@ -10,7 +10,7 @@ export default function About() {
         <img alt="profile pic" src={profilePic}></img>
         <div className="headingNLinks">
           <h1 className="myName">Jobin John K</h1>
-          <h3>Digital Marketing Intern</h3>
+          <h3>EmailOps at eClerx</h3>
           <div className="links">
             <IconLink
               URL="https://github.com/jobin365"
@@ -34,7 +34,7 @@ export default function About() {
       </div>
       <div className="about">
         <p>
-        Currently doing internship at eClerx and is getting trained on Salesforce Marketing Cloud.
+        Currently doing internship at eClerx and is getting trained on EmailOps and Salesforce Marketing Cloud.
         Has self made experience in full stack development. Checkout the GitHub page and portfolio website.
         Graduated with a degree in computer science and pursuing masters in computer application.
         </p>
