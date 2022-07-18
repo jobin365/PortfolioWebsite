@@ -21,7 +21,7 @@ body {
 
 .Information {
   width: 600px;
-  max-height: 600px;
+  max-height: 100vh;
   overflow: auto;
 }
 
