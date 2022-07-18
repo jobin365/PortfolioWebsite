@@ -39,6 +39,9 @@ export default function Navbar() {
     palette: {
       primary: {
         main:"#243A73"
+      },
+      neutral:{
+        contrastText:"#D61C4E"
       }
     }
   })
@@ -51,7 +54,7 @@ export default function Navbar() {
           <div key={uuidv4()} className="navButton">
           <Link className="link" to={route}>
           <ThemeProvider theme={theme}>
-            <Fab color="primary" style={(screenWidth>=900)?buttonStyleDesktop:buttonStyleMobile} variant={(screenWidth>=900)?"extended":"circular"}>
+            <Fab color="neutral" style={(screenWidth>=900)?buttonStyleDesktop:buttonStyleMobile} variant={(screenWidth>=900)?"extended":"circular"}>
               {icon}
               {(screenWidth>=900)&&name}
             </Fab>
